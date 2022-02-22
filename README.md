@@ -1,8 +1,8 @@
-# 🚀 Content Fly Proof of Job Completion (PoJC) NFT
+# 🚀 Content Fly Proof of Ownership (Pown) NFT for Job Deliverable(s)
 
-[![Content Fly PoJC NFT Token CI / CD](https://github.com/contentflydapp/nftpojc/actions/workflows/dev.yml/badge.svg?branch=develop)](https://github.com/contentflydapp/nftpojc/actions/workflows/dev.yml)
+[![Content Fly Pown NFT Token CI / CD](https://github.com/contentflydapp/nftpown/actions/workflows/dev.yml/badge.svg?branch=develop)](https://github.com/contentflydapp/nftpown/actions/workflows/dev.yml)
 
-Content Fly PoJC NFT Token follows the [DIP721 standard](https://github.com/Psychedelic/DIP721/blob/develop/spec.md). It is a fork of [DIP721](https://github.com/Psychedelic/DIP721/)
+Content Fly Pown NFT Token follows the [DIP721 standard](https://github.com/Psychedelic/DIP721/blob/develop/spec.md). It is a fork of [DIP721](https://github.com/Psychedelic/DIP721/)
 
 DIP-721 is an ERC-721 style non-fungible token standard built mirroring its Ethereum counterpart and adapting it to the Internet Computer, maintaining the same interface.
 
@@ -17,7 +17,7 @@ DIP721 is chosen because:
 - It has basic integration with [CAP](https://cap.ooo/) for transaction history and asset provenance.
 - It is under active development and will continue to evolve.
 
-# Enhancements (updated on 21st Feb 2022)
+# Enhancements (updated on 26th Feb 2022)
 
 - Added store and restore CAP data in Canister preupgrade and postupgrade so that it will survive future canister upgrade, otherwise future mint after Canister upgrade (with integration to CAP) will fail because it lost the CAP root canister id reference info created during init handshake
 - Added Github Action workflow for deployment to Internet Computer and running basic healtch check testing with NFT canister
@@ -95,4 +95,4 @@ This NFT Canister is under active development by Content Fly team. The controlle
 
 # License
 
-Content Fly PoJC NFT - [MIT License](LICENSE)
+Content Fly Pown NFT - [MIT License](LICENSE)

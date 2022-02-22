@@ -1,10 +1,8 @@
-name: Dev Test - Content Fly PoJC NFT Token CI / CD
+name: Content Fly Pown NFT Token CI / CD
 
 on:
   workflow_dispatch:
   push:
-    branches: [develop]
-  pull_request:
     branches: [develop]
 
 jobs:

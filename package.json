@@ -1,8 +1,8 @@
 {
-  "name": "nftpojc",
-  "description": "Content Fly PoJC NFT Token",
+  "name": "nftpown",
+  "description": "Content Fly Proof of Ownership (Pown) NFT for Job Deliverable(s)",
   "version": "0.1.0",
-  "repository": "https://github.com/contentflydapp/nftpojc.git",
+  "repository": "https://github.com/contentflydapp/nftpown.git",
   "author": "Henry Chan <henry@contentfly.app>",
   "license": "MIT",
   "scripts": {

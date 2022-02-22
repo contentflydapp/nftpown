@@ -11,7 +11,7 @@ mintlocal() {
       key_val_data=vec {
         record {
           key=\"name\";
-          val=variant { TextContent = \"Content Fly PoJC NFT\" };
+          val=variant { TextContent = \"Content Fly Pown NFT\" };
         }
       }
     }
@@ -28,13 +28,13 @@ minticdev() {
       key_val_data=vec {
         record {
           key=\"name\";
-          val=variant { TextContent = \"Content Fly PoJC NFT\" };
+          val=variant { TextContent = \"Content Fly Pown NFT\" };
         }
       }
     }
   })"
 }
 
-mintlocal
+minticdev
 
 exit 0
