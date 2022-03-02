@@ -10,6 +10,6 @@ icbalance() {
   dfx canister --network nft call nft balanceOfDip721 "(principal \"$WALLET_ACCOUNT_PRINCIPAL\")" --query
 }
 
-icbalance
+localbalance
 
 exit 0
