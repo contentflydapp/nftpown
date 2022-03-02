@@ -4,9 +4,7 @@
 DFX_IDENTITY_PRINCIPAL=$(dfx identity get-principal)
 TOKEN_ID="CFO"
 TOKEN_NAME="Content Fly Pown NFT"
-
 CANISTER_CAP_ID="$CANISTER_CAP_ID"
-CANISTER_CAP_LOCAL_ID="$CANISTER_CAP_LOCAL_ID"
 
 printf "Deploying the CF Pown NFT Canister\n"
 printf "TOKEN_ID=$TOKEN_ID\n"
