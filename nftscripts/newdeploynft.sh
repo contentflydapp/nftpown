@@ -47,6 +47,6 @@ deployicdev() {
   printf "\n\n"
 }
 
-deployicdev
+deploylocal
 
 exit 0

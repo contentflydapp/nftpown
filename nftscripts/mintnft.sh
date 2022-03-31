@@ -35,6 +35,6 @@ minticdev() {
   })"
 }
 
-minticdev
+mintlocal
 
 exit 0
